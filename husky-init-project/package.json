@@ -1,0 +1,14 @@
+{
+  "name": "husky-init-project",
+  "packageManager": "yarn@3.2.3",
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "pinst": "^3.0.0"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "postinstall": "husky install",
+    "prepack": "pinst --disable",
+    "postpack": "pinst --enable"
+  }
+}
