@@ -1,4 +1,4 @@
-# Yarn 3, Next.js, and Strapi
+# Yarn 3, Next.js, and Chakra
 
 #### Note: Add `nodeLinker: node-modules` to prevent issues.
 
